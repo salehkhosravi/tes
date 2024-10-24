@@ -1,0 +1,97 @@
+@font-face{
+    font-family: yekan;
+    src: url(/Beirut_MRT.ttf);
+
+}
+
+*{
+    font-family: yekan;
+}
+body{
+   background-color: aliceblue;
+}
+.sidebar{
+    height: 100vh;
+    background: linear-gradient( rgb(0, 255, 21) , rgb(0, 68, 255));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: -5px 7px 25px #999;
+   
+    
+   
+}
+
+.bottom-border{
+    border-bottom: 1px groove #ffffff ;
+}
+
+.sidebar-link{
+transition: all .4s;
+position:unset;
+height:auto;
+}
+
+.sidebar-link:hover{
+  background-color: #d3d3d3;
+  border-radius:5px ;
+    }
+    
+
+.current{
+    background-color: #eba2a2;
+    border-radius:7px ;
+box-shadow: 2px 5px 10px #111;
+transition: all .4s;
+
+} 
+
+.current{
+    background-color: #fff2f1;
+    transform: translateY(-1px);
+
+}
+
+.search-button{
+
+
+.search-button:hover{
+background-color: #c70000;
+transform:translateY(-10px);
+}
+
+
+}
+
+
+
+.search-input{
+
+    background-color: #111;
+    border: none;
+    border-radius: 0px ;
+    border-bottom: 2px solid #dd0000;
+    transition: all .4s;
+}
+
+
+.search-input:focus{
+    background-color: #111;
+    box-shadow: none;
+    border-bottom: 2px solid #e20000;
+
+}
+
+@media ( max-width :768px ){
+    .top-navbar{
+position: static;
+
+    }
+
+    .sidebar{
+
+        position:unset;
+        height:auto;
+
+    }
+}
